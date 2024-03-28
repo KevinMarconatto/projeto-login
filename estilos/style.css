@@ -75,12 +75,30 @@ div.campo > label {
     display: none;
 }
 
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    font-size: 1em;
+    width: 80%;
+    transform: translate(2px, -13px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 2px;
+}
+
 form > div.campo {
     background-color: var(--cor2);
+    border: 2px solid var(--cor2);
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
